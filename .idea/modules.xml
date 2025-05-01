@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Curso-Udemy.iml" filepath="$PROJECT_DIR$/Curso-Udemy.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Java-Udemy.iml" filepath="$PROJECT_DIR$/Java-Udemy.iml" />
+>>>>>>> 871b823e8b46f507d21d94e0783aaebf6b371453
     </modules>
   </component>
 </project>
