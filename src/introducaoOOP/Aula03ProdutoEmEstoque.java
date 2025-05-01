@@ -17,17 +17,14 @@ public class Aula03ProdutoEmEstoque {
         System.out.print("Price: ");
         double price = scan.nextDouble();
 
-        System.out.print("Quantity in stock: ");
-        int quantity = scan.nextInt();
-
-        Product product = new Product(name, price, quantity);
+        Product product = new Product(name, price);
 
         System.out.println();
         System.out.println("Product data: " + product);
 
         System.out.println();
         System.out.print("Enter the numbers of products to be added in stock: ");
-        quantity = scan.nextInt();
+        int quantity = scan.nextInt();
         product.addProducts(quantity);
 
         System.out.println();
